@@ -1,8 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b1220">
-<title>90Days DataHub | Buy Data Bundles</title>
-<style>
-:root{--bg:#071b3a;--panel:#0e2b54;--panel2:#153965;--text:#f4f7fb;--muted:#b8c9df;--accent:#f7c948;--green:#35c98a;--line:#254a76}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#071b3a,#0b2a50);color:var(--text)}.wrap{max-width:1050px;margin:auto;padding:20px}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0 24px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px}.logo{width:42px;height:42px;border-radius:13px;background:var(--accent);color:#101827;display:grid;place-items:center;font-weight:950}.pill{border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:var(--muted);font-size:13px}.hero{padding:28px 0;display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:12px}h1{font-size:clamp(34px,6vw,58px);line-height:1.04;margin:12px 0 16px;letter-spacing:-1.5px}.hero p{color:var(--muted);line-height:1.7}.hero-card,.box{background:rgba(18,29,49,.92);border:1px solid var(--line);border-radius:22px;padding:22px}.hero-card p{font-size:14px;color:var(--muted);line-height:1.7}.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.trust span{font-size:12px;color:#dce6f5;background:var(--panel2);padding:8px 11px;border-radius:999px}.section-title{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:10px 0 16px}.section-title h2{margin:0;font-size:25px}.section-title p{margin:5px 0 0;color:var(--muted);font-size:13px}.networks{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}.network{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:16px;padding:16px;text-align:left;cursor:pointer;font-weight:750}.network small{display:block;color:var(--muted);font-weight:500;margin-top:5px}.network.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:7px}input,select{width:100%;padding:13px 14px;background:#081f40;border:1px solid var(--line);border-radius:12px;color:var(--text);font:inherit}.bundles{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:14px}.bundle{background:#081f40;border:1px solid var(--line);border-radius:14px;color:var(--text);padding:15px 8px;cursor:pointer;text-align:center}.bundle strong{display:block;font-size:19px}.bundle small{display:block;color:var(--muted);margin-top:5px}.bundle.active{border-color:var(--green);box-shadow:0 0 0 1px var(--green) inset}.summary{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 0;margin-top:10px;border-top:1px solid var(--line)}.price{font-size:22px;font-weight:850}.btn{width:100%;padding:15px;border:0;border-radius:13px;background:var(--accent);color:#111827;font-size:15px;font-weight:850;cursor:pointer}.notice{font-size:12px;line-height:1.6;color:var(--muted);margin:13px 0 0}.status{display:none;margin-top:14px;padding:13px;border-radius:12px;background:#172a26;border:1px solid #24634b;color:#b9f5d9;font-size:13px}footer{margin-top:35px;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}@media(max-width:720px){.hero{grid-template-columns:1fr;padding-top:10px}.networks{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.bundles{grid-template-columns:repeat(2,1fr)}.section-title{align-items:start;flex-direction:column}.wrap{padding:16px}}
-</style></head><body><div class="wrap"><header class="nav"><div class="brand"><div class="logo">90</div><span>90Days <span style="color:var(--accent)">DataHub</span></span></div><a class="pill" href="https://wa.me/233549077191" target="_blank" rel="noopener" style="text-decoration:none">WhatsApp Support ↗</a></header><main><section class="hero"><div><div class="eyebrow">Stay connected for less</div><h1>Affordable data.<br><span style="color:var(--accent)">Easy ordering.</span></h1><p>Choose your network, select a bundle, and enter the number that should receive the data. A simple shopping experience from 90Days DataHub.</p><div class="trust"><span>✓ Simple ordering</span><span>✓ Mobile-friendly</span><span>✓ Customer support</span><span>✓ Ghana networks</span></div></div><div class="hero-card"><h3>Welcome to 90Days DataHub</h3><p>Buy data bundles for MTN, Telecel, and AT. Browse our MTN, Telecel, and AT bundle options. Prices, secure payments, and automatic delivery will be enabled once supplier and payment integrations are configured.</p></div></section><section class="box" id="buy"><div class="section-title"><div><h2>Buy a data bundle</h2><p>Select a network and package to start an order.</p></div><span class="pill">Website preview</span></div><div class="networks"><button class="network active" data-network="MTN">🟡 MTN<small>Mobile data bundles</small></button><button class="network" data-network="Telecel">🔴 Telecel<small>Mobile data bundles</small></button><button class="network" data-network="AT">🔵 AT<small>Mobile data bundles</small></button></div><div class="formgrid"><div class="field"><label for="phone">Recipient phone number</label><input id="phone" type="tel" inputmode="numeric" placeholder="e.g. 0241234567" maxlength="10"></div><div class="field"><label for="bundleSelect">Bundle size</label><select id="bundleSelect"><option>1 GB</option><option>2 GB</option><option>5 GB</option><option>10 GB</option><option>20 GB</option></select></div></div><div class="bundles"><button class="bundle active" data-size="1 GB"><strong>1 GB</strong><small>Select</small></button><button class="bundle" data-size="2 GB"><strong>2 GB</strong><small>Select</small></button><button class="bundle" data-size="5 GB"><strong>5 GB</strong><small>Select</small></button><button class="bundle" data-size="10 GB"><strong>10 GB</strong><small>Select</small></button><button class="bundle" data-size="20 GB"><strong>20 GB</strong><small>Select</small></button></div><div class="summary"><div><div style="font-size:12px;color:var(--muted)">Selected bundle</div><strong id="selectedSummary">MTN · 1 GB</strong></div><div style="text-align:right"><div style="font-size:12px;color:var(--muted)">Price</div><div class="price">To be configured</div></div></div><button class="btn" id="orderBtn">Continue to order</button><div class="status" id="status"></div><p class="notice">Important: This is a demo storefront. It does not take payments or deliver data yet. Do not send money based on this preview. Before launch, connect an authorized data supplier API and a payment provider, set real prices, and test refunds and order status.</p></section></main><footer><span>© 2026 90Days DataHub</span><span>Affordable Data · Fast Delivery · Trusted Service</span><a href="https://wa.me/233549077191?text=Hello%2090Days%20DataHub%2C%20I%20need%20help%20with%20data%20bundles." target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:800">Chat with us on WhatsApp</a></footer></div><script>let network='MTN',bundle='1 GB';const summary=document.getElementById('selectedSummary');function refresh(){summary.textContent=network+' · '+bundle}document.querySelectorAll('.network').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.network').forEach(x=>x.classList.remove('active'));b.classList.add('active');network=b.dataset.network;refresh()}));document.querySelectorAll('.bundle').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.bundle').forEach(x=>x.classList.remove('active'));b.classList.add('active');bundle=b.dataset.size;document.getElementById('bundleSelect').value=bundle;refresh()}));document.getElementById('bundleSelect').addEventListener('change',e=>{bundle=e.target.value;document.querySelectorAll('.bundle').forEach(b=>b.classList.toggle('active',b.dataset.size===bundle));refresh()});document.getElementById('orderBtn').addEventListener('click',()=>{const phone=document.getElementById('phone').value.trim(),s=document.getElementById('status');s.style.display='block';s.style.background='#33251a';s.style.borderColor='#78512a';s.style.color='#ffe0b0';if(!/^\d{10}$/.test(phone)){s.textContent='Please enter a valid 10-digit Ghanaian phone number.';return}s.textContent='Demo only: selected '+network+' · '+bundle+' for '+phone+'. Checkout is not connected, so no payment or data order has been made.'});</script></body></html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a36">
+  <meta name="description" content="90Days DataHub — affordable data bundles in Ghana with fast support and convenient ordering.">
+  <title>90Days DataHub | Affordable Data Bundles</title>
+  <style>
+    :root{--navy:#071a36;--blue:#1463ff;--cyan:#28d7e5;--ink:#10213b;--muted:#61718a;--bg:#f4f7fc;--white:#fff;--line:#e4eaf4;--green:#18a66a}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid #ffffff1c}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:1.08rem;letter-spacing:.2px}
+    .logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;color:#fff;font-weight:1000;font-size:1rem;box-shadow:0 8px 25px #1463ff44}
+    .brand small{display:block;color:#b8c9e7;font-size:.7rem;font-weight:600;letter-spacing:1.3px}
+    nav{display:flex;align-items:center;gap:24px;font-size:.92rem;color:#dce7fb}nav a:hover{color:var(--cyan)}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 18px;border-radius:12px;font-weight:800;border:0;cursor:pointer;transition:.2s}
+    .btn-primary{background:linear-gradient(110deg,var(--blue),#4387ff);color:white;box-shadow:0 8px 20px #1463ff2c}.btn-primary:hover{transform:translateY(-2px)}
+    .btn-light{background:#fff;color:var(--navy)}.btn-outline{border:1px solid #ffffff65;color:white}
+    .hero{background:radial-gradient(ellipse at 80% 20%,#164da6 0,transparent 35%),linear-gradient(125deg,#071a36 5%,#0b2b5c 65%,#103c75);color:#fff;padding:78px 0 84px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#ffffff12;border:1px solid #ffffff24;color:#bfefff;border-radius:100px;padding:7px 12px;font-size:.8rem;font-weight:800;letter-spacing:.4px}
+    .dot{width:8px;height:8px;border-radius:50%;background:#40e6a4;box-shadow:0 0 0 4px #40e6a426}
+    h1{font-size:clamp(2.45rem,5vw,4.35rem);line-height:1.06;letter-spacing:-2px;margin:20px 0 18px;max-width:650px}
+    h1 span{background:linear-gradient(90deg,#4be6e6,#8fb5ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero p{font-size:1.08rem;color:#c5d5ef;max-width:560px;margin:0 0 26px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}.trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#d7e5fa;font-size:.86rem}.trust span{display:flex;align-items:center;gap:7px}
+    .hero-card{background:#ffffff0d;border:1px solid #ffffff25;border-radius:25px;padding:24px;box-shadow:0 25px 70px #0003;transform:rotate(1deg)}
+    .card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}.card-top strong{font-size:1.1rem}.pill{background:#1aaf7b22;color:#70f0ba;border:1px solid #70f0ba50;border-radius:50px;padding:6px 10px;font-size:.72rem;font-weight:800}
+    .data-visual{border-radius:20px;background:linear-gradient(145deg,#1463ff,#22c7dc);padding:24px;position:relative;overflow:hidden;min-height:180px}
+    .data-visual:after{content:"";position:absolute;width:190px;height:190px;border:28px solid #ffffff24;border-radius:50%;right:-40px;top:-48px}
+    .data-visual small{position:relative;z-index:1;color:#e5f7ff;font-weight:700}.data-visual h2{position:relative;z-index:1;font-size:2.8rem;line-height:1;margin:12px 0}.data-visual p{position:relative;z-index:1;margin:0;color:#e9f8ff;font-size:.9rem}
+    .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}.mini-stat{padding:13px 8px;border:1px solid #ffffff1c;border-radius:14px;text-align:center}.mini-stat strong{display:block;font-size:1rem}.mini-stat span{font-size:.72rem;color:#bfd0eb}
+    section{padding:72px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 34px}.section-head .tag{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:1.5px;font-size:.75rem}.section-head h2{font-size:clamp(1.8rem,3.2vw,2.6rem);letter-spacing:-1px;margin:9px 0}.section-head p{color:var(--muted);margin:0}
+    .network-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.network{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px;box-shadow:0 8px 30px #152c5010;transition:.2s}.network:hover{transform:translateY(-4px);box-shadow:0 15px 35px #152c5018}
+    .network-head{display:flex;align-items:center;gap:13px;margin-bottom:13px}.network-icon{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;font-size:1.05rem;font-weight:1000;color:#fff}.mtn{background:#ffcc00;color:#17213a}.telecel{background:#e52d52}.at{background:#159b62}.network h3{margin:0;font-size:1.12rem}.network small{color:var(--muted)}.network p{color:var(--muted);font-size:.92rem;min-height:45px}.network .btn{width:100%;background:#eef4ff;color:#1554c8}
+    .features{background:#fff}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.feature{padding:24px;border:1px solid var(--line);border-radius:18px}.feature-icon{width:45px;height:45px;border-radius:14px;background:#eaf1ff;color:var(--blue);display:grid;place-items:center;font-size:1.3rem}.feature h3{margin:15px 0 7px}.feature p{color:var(--muted);margin:0;font-size:.94rem}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px}.num{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:var(--navy);color:#fff;font-weight:900}.step h3{margin:14px 0 6px}.step p{margin:0;color:var(--muted);font-size:.94rem}
+    .cta{padding:0 0 72px}.cta-box{background:linear-gradient(120deg,#0a2450,#145ed2);border-radius:25px;padding:38px;display:flex;align-items:center;justify-content:space-between;gap:24px;color:#fff}.cta-box h2{font-size:clamp(1.6rem,3vw,2.3rem);margin:0 0 8px}.cta-box p{margin:0;color:#cfdef8}
+    footer{background:#06152d;color:#c4d1e6;padding:30px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footer-row p{margin:4px 0;font-size:.86rem}.footer-links{display:flex;gap:18px;font-size:.88rem}.notice{margin-top:18px;font-size:.76rem;color:#8fa4c4}
+    @media(max-width:800px){nav{gap:12px}nav a:not(.btn){display:none}.hero{padding:55px 0}.hero-grid{grid-template-columns:1fr;gap:34px}.hero-card{max-width:480px;transform:none}.network-grid,.feature-grid,.steps{grid-template-columns:1fr}.network p{min-height:0}.cta-box{padding:28px;align-items:flex-start;flex-direction:column}section{padding:56px 0}}
+    @media(max-width:420px){.brand{font-size:.94rem}.nav>.btn{padding:10px 12px;font-size:.82rem}.hero-actions .btn{width:100%}.mini-stats{gap:6px}.mini-stat{padding:10px 4px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="90Days DataHub home">
+        <span class="logo">90D</span>
+        <span>90Days DataHub<small>DATA MADE EASY</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#networks">Networks</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#how-it-works">How it works</a>
+      </nav>
+      <a class="btn btn-primary" href="#networks">Get Data</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> YOUR DATA, MADE SIMPLE</div>
+          <h1>Stay connected.<br><span>Spend smarter.</span></h1>
+          <p>Get affordable data bundles for your favourite network in Ghana. Simple ordering, helpful support, and a smoother way to stay online.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#networks">Explore Networks →</a>
+            <a class="btn btn-outline" href="#how-it-works">How it works</a>
+          </div>
+          <div class="trust">
+            <span>✓ Convenient ordering</span>
+            <span>✓ Helpful support</span>
+            <span>✓ Clear updates</span>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Data bundle promotional card">
+          <div class="card-top"><strong>Stay online with 90Days</strong><span class="pill">DATA HUB</span></div>
+          <div class="data-visual">
+            <small>YOUR NEXT BUNDLE</small>
+            <h2>More data.<br>More possibilities.</h2>
+            <p>For study, work, streaming and everyday browsing.</p>
+          </div>
+          <div class="mini-stats">
+            <div class="mini-stat"><strong>MTN</strong><span>Bundles</span></div>
+            <div class="mini-stat"><strong>Telecel</strong><span>Bundles</span></div>
+            <div class="mini-stat"><strong>AT</strong><span>Bundles</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="networks">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="tag">Choose your network</span>
+          <h2>Find the bundle that works for you</h2>
+          <p>Select your network to start an order. Package prices and live payment options can be added once your official prices and payment integration are ready.</p>
+        </div>
+        <div class="network-grid">
+          <article class="network">
+            <div class="network-head"><span class="network-icon mtn">MTN</span><div><h3>MTN Ghana</h3><small>Data bundles</small></div></div>
+            <p>Choose MTN for browsing, studying, social media and more.</p>
+            <a class="btn" href="#order-help" data-network="MTN Ghana">Order MTN data →</a>
+          </article>
+          <article class="network">
+            <div class="network-head"><span class="network-icon telecel">T</span><div><h3>Telecel Ghana</h3><small>Data bundles</small></div></div>
+            <p>Find a suitable Telecel bundle for your everyday connection.</p>
+            <a class="btn" href="#order-help" data-network="Telecel Ghana">Order Telecel data →</a>
+          </article>
+          <article class="network">
+            <div class="network-head"><span class="network-icon at">AT</span><div><h3>AT Ghana</h3><small>Data bundles</small></div></div>
+            <p>Stay connected with an AT bundle that suits your needs.</p>
+            <a class="btn" href="#order-help" data-network="AT Ghana">Order AT data →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="why-us">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="tag">Why 90Days DataHub?</span>
+          <h2>A simpler way to buy data</h2>
+          <p>Designed to make your data-bundle experience clear and convenient.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><span class="feature-icon">⚡</span><h3>Easy ordering</h3><p>Choose your network and follow the order instructions without unnecessary steps.</p></article>
+          <article class="feature"><span class="feature-icon">🔒</span><h3>Payment-conscious</h3><p>Use only the payment methods officially provided by 90Days DataHub. Never share your MoMo PIN or OTP.</p></article>
+          <article class="feature"><span class="feature-icon">💬</span><h3>Customer support</h3><p>Get help with order questions and delivery updates through the official support channel.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="tag">Three simple steps</span>
+          <h2>How it works</h2>
+          <p>Start with your network, then follow the instructions shown by the shop.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><span class="num">1</span><h3>Choose a network</h3><p>Select MTN, Telecel or AT Ghana.</p></article>
+          <article class="step"><span class="num">2</span><h3>Select your bundle</h3><p>Check the available package, price and recipient number carefully before confirming.</p></article>
+          <article class="step"><span class="num">3</span><h3>Follow order updates</h3><p>Keep your order reference and contact support if you need help.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="order-help">
+      <div class="wrap">
+        <div class="cta-box">
+          <div><h2>Ready to get connected?</h2><p>Official bundle prices, ordering and payment integration can be added next.</p></div>
+          <a class="btn btn-light" href="mailto:support@cheapdata.shop?subject=90Days%20DataHub%20Order%20Enquiry">Contact support →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div class="brand"><span class="logo">90D</span><span>90Days DataHub<small>DATA MADE EASY</small></span></div>
+        <div class="footer-links"><a href="#networks">Networks</a><a href="#why-us">Why us</a><a href="#how-it-works">How it works</a></div>
+        <p>© <span id="year"></span> 90Days DataHub</p>
+      </div>
+      <p class="notice">Network names are used to identify supported services. Confirm bundle availability, prices, delivery terms and payment methods before accepting orders. This homepage does not yet process payments or automatically deliver data.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('[data-network]').forEach(function(link){
+      link.addEventListener('click', function(){
+        const network = this.getAttribute('data-network');
+        const title = document.querySelector('#order-help h2');
+        const description = document.querySelector('#order-help p');
+        title.textContent = 'Order enquiry: ' + network;
+        description.textContent = 'Contact 90Days DataHub to ask about current ' + network + ' bundle prices and availability.';
+      });
+    });
+  </script>
+</body>
+</html>
